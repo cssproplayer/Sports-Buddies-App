@@ -1,0 +1,14 @@
+{
+  "packages": {
+    "less-bootstrap-3": {},
+    "font-awesome-4-less": {},
+    "iron-router": {},
+    "houston": {},
+    "fullcalendar": {},
+    "leaflet": {},
+    "aloha-editor": {},
+    "bootstrap-3-timepicker": {},
+    "external-file-loader": {},
+    "esri-leaflet": {}
+  }
+}

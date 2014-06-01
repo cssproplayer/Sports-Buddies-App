@@ -1,0 +1,22 @@
+<template name="nav">
+<header role="banner" class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button data-toggle="collapse-side" data-target=".side-collapse" data-target-2=".side-collapse-container" type="button" class="navbar-toggle pull-left"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        </div>
+        <div class="navbar-inverse side-collapse in">
+          <nav role="navigation" class="navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="{{pathFor 'home'}}">Home</a></li>
+              <li><a href="{{pathFor 'fun'}}">Map</a></li>
+              <li><a href="{{pathFor 'schedules'}}"> old Calendar</a></li>
+              <li><a href="{{pathFor 'emails'}}">Email</a></li>
+              <li><a href="{{pathFor 'aiko'}}">Aiko</a></li> 
+              <li><a href="{{pathFor 'call'}}">Call List</a></li>
+              <li><a href="{{pathFor 'calendar'}}">test cal</a></li> 
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+</template>
